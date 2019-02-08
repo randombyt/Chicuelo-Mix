@@ -1,0 +1,1 @@
+Almost fully backward compatible with the Atari 2600, the 7800 was the first console to have backward compatibility without the use of additional modules

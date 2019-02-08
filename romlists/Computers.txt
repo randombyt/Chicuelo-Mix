@@ -1,0 +1,25 @@
+#Name;Title;Emulator;CloneOf;Year;Manufacturer;Category;Players;Rotation;Control;Status;DisplayCount;DisplayType;AltRomname;AltTitle;Extra;Buttons
+Amstrad CPC;Amstrad CPC;@;;1984;;;;;;;;;;Amstrad CPC;8-BIT COMPUTER;
+Apple II; Apple II;@;;1977;;;;;;;;;;Apple II;8-BIT COMPUTER;
+Apple Macintosh;Apple Macintosh;@;;1984;;;;;;;;;;Apple Macintosh;8-BIT COMPUTER;
+Atari 800;Atari 800;@;;1979;;;;;;;;;;Atari 800;8-BIT COMPUTER;
+Atari ST;Atari ST;@;;1985;;;;;;;;;;Atari ST;16-BIT COMPUTER;
+Commodore 64;Commodore 64;@;;1982;;;;;;;;;;Commodore 64;8-BIT COMPUTER;
+Commodore Amiga;Commodore Amiga;@;;1985;;;;;;;;;;Commodore Amiga;16-BIT COMPUTER;
+DOS;DOS;@;;1981;;;;;;;;;;DOS;16/32-BIT COMPUTER;
+Dragon 32-64; Dragon 32-64;@;;1980;;;;;;;;;;Dragon 32-64;8-BIT COMPUTER;
+MGT SAM Coupe;MGT SAM Coupe;@;;1989;;;;;;;;;;MGT SAM Coupe;8-BIT COMPUTER;
+Microsoft MSX;Microsoft MSX;@;;1983;;;;;;;;;;Microsoft MSX;8-BIT COMPUTER;
+Microsoft MSX2;Microsoft MSX2;@;;1984;;;;;;;;;;Microsoft MSX2;16-BIT COMPUTER;
+NEC PC-8800;NEC PC-8800;@;;1981;;;;;;;;;;NEC PC-8800;8-BIT COMPUTER;
+Ports;Ports;@;;;;;;;;;;;;Ports;ALL CONSOLES / HANDHELDS;
+ResidualVM;ResidualVM;@;;2003;;;;;;;;;;ResidualVM;CROSS PLATFORM COMPUTER;
+ScummVM;ScummVM;@;;2001;;;;;;;;;;ScummVM;CROSS PLATFORM COMPUTER;
+Sharp X68000;Sharp X68000;@;;1987;;;;;;;;;;Sharp X68000;16/32-BIT COMPUTER;
+Sinclair ZX Spectrum;Sinclair ZX Spectrum;@;;1982;;;;;;;;;;Sinclair ZX Spectrum;8-BIT COMPUTER;
+Steam;Steam;@;;2004;;;;;;;;;;Steam;DIGITAL PLATFORM;
+Tandy TRS-80;Tandy TRS-80;@;;1977;;;;;;;;;;Tandy TRS-80;8-BIT COMPUTER;
+Tandy TRS-80 Color Computer;Tandy TRS-80 Color Computer;@;;1980;;;;;;;;;;Tandy TRS-80 CoCo;8-BIT COMPUTER;
+Tangerine Oric-1;Tangerine Oric-1;@;;1982;;;;;;;;;;Tangerine Oric-1;8-BIT COMPUTER;
+Texas Instruments TI-99;Texas Instruments TI-99;@;;1981;;;;;;;;;;Texas Instruments TI-99;16-BIT COMPUTER;
+Z-Machine;Z-Machine;@;;1979;;;;;;;;;;Z-Machine;16-BIT VIRTUAL MACHINE;

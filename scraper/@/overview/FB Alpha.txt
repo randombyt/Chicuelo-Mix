@@ -1,0 +1,1 @@
+FB Alpha is an arcade emulator supporting different arcade platforms. It sacrfices accuracy for performance

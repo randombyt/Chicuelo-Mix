@@ -1,0 +1,1 @@
+The original model was part of a wave of 16 and 32 bit computers that featured 256KB or more of RAM, mouse based GUIs, and improved graphics & audio

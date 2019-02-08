@@ -1,0 +1,1 @@
+Add-on attachment for the PC Engine which allows core versions of the console to play PC Engine games in CD-ROM format

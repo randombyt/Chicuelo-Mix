@@ -1,0 +1,1 @@
+NEOGEO MVS is a cartridge based arcade system board released in 1990 by SNK Corporation.  Neo Geo MVS was more powerful than any video game console at the time and provided six ROM slots 

@@ -1,0 +1,1 @@
+Z-machine is a virtual machine that was developed by Joel Berez and Marc Blank in 1979 and used by Infocom for its text adventure games. Infocom compiled game code through Z-machine instructions

@@ -1,0 +1,5 @@
+#Name;Title;Emulator;CloneOf;Year;Manufacturer;Category;Players;Rotation;Control;Status;DisplayCount;DisplayType;AltRomname;AltTitle;Extra;Buttons
+Daphne; Daphne;@;;1983;;;;;;;;;;Daphne;COIN OPERATED CABINET;
+FB Alpha;FB Alpha;@;;1971;;;;;;;;;;FB Alpha;COIN OPERATED CABINET;
+MAME;MAME;@;;1971;;;;;;;;;;MAME;COIN OPERATED CABINET;
+SNK NeoGeo MVS;SNK NeoGeo MVS;@;;1990;;;;;;;;;;SNK NeoGeo MVS;COIN OPERATED CABINET;

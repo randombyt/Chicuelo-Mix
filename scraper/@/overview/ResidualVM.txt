@@ -1,0 +1,1 @@
+ResidualVM is a cross-platform 3D game interpreter which can play LucasArts' Lua-based 3D adventures games, Grim Fandango and Escape from Monkey Island. It can also run Myst 3 Exile.

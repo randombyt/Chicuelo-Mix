@@ -1,0 +1,1 @@
+MSX is a standardized home computer architecture, conceived as an attempt to create unified standards among various hardware makers

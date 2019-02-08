@@ -1,0 +1,1 @@
+In a platformer the player controls a character to jump between suspended platforms and avoid obstacles

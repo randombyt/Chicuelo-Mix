@@ -1,0 +1,14 @@
+#Name;Title;Emulator;CloneOf;Year;Manufacturer;Category;Players;Rotation;Control;Status;DisplayCount;DisplayType;AltRomname;AltTitle;Extra;Buttons
+Atari Lynx;Atari Lynx;@;;1989;;4th GEN;;;;;;;;Atari Lynx;16-BIT HANDHELD CONSOLE;
+Bandai Wonderswan;Bandai Wonderswan;@;;1999;;5th GEN;;;;;;;;Bandai Wonderswan;16-BIT HANDHELD CONSOLE;
+Bandai Wonderswan Color;Bandai Wonderswan Color;@;;2000;;5th GEN;;;;;;;;Bandai Wonderswan Color;16-BIT HANDHELD CONSOLE;
+Nintendo DS;Nintendo DS;@;;2004;;7th GEN;;;;;;;;Nintendo DS;32-BIT HANDHELD CONSOLE;
+Nintendo Game & Watch;Nintendo Game & Watch;@;;1980;;2nd GEN;;;;;;;;Nintendo Game & Watch;HANDHELD ELECTRONIC GAMES;
+Nintendo GameBoy;Nintendo GameBoy;@;;1989;;4th GEN;;;;;;;;Nintendo GameBoy;8-BIT HANDHELD CONSOLE;
+Nintendo GameBoy Advance;Nintendo GameBoy Advance;@;;2001;;6th GEN;;;;;;;;Nintendo GameBoy Advance;32-BIT HANDHELD CONSOLE;
+Nintendo GameBoy Color;Nintendo GameBoy Color;@;;1998;;5th GEN;;;;;;;;Nintendo GameBoy Color;8-BIT HANDHELD CONSOLE;
+Nintendo Wii U;Nintendo Wii U;@;;2012;;8th GEN;;;;;;;;Nintendo Wii U;64-BIT HYBRID CONSOLE;
+Sega Game Gear;Sega Game Gear;@;;1990;;4th GEN;;;;;;;;Sega Game Gear;8-BIT HANDHELD CONSOLE;
+SNK NeoGeo Pocket;SNK NeoGeo Pocket;@;;1998;;5th GEN;;;;;;;;SNK NeoGeo Pocket;16-BIT HANDHELD CONSOLE;
+SNK NeoGeo Pocket Color;SNK NeoGeo Pocket Color;@;;1999;;6th GEN;;;;;;;;SNK NeoGeo Pocket Color;16-BIT HANDHELD CONSOLE;
+Sony PlayStation Portable;Sony PlayStation Portable;@;;2004;;7th GEN;;;;;;;;Sony PlayStation Portable;32-BIT HANDHELD CONSOLE;

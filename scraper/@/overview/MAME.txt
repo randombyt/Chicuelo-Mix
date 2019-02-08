@@ -1,0 +1,1 @@
+MAME is an open source emulator designed to preserve arcade game systems and recreate the experience on modern personal computers and other platforms

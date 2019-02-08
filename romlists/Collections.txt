@@ -1,0 +1,16 @@
+#Name;Title;Emulator;CloneOf;Year;Manufacturer;Category;Players;Rotation;Control;Status;DisplayCount;DisplayType;AltRomname;AltTitle;Extra;Buttons
+All;All;@;;;;;;;;;;;;All;COMPLETE COLLECTION;
+Action;Action;@;;;;;;;;;;;;Action;GAME GENRE;
+Adventure;Adventure;@;;;;;;;;;;;;Adventure;GAME GENRE;
+Beat 'Em Up;Beat 'Em Up;@;;;;;;;;;;;;Beat 'Em Up;GAME GENRE;
+Fighting;Fighting;@;;;;;;;;;;;;Fighting;GAME GENRE;
+Fixed Screen;Fixed Screen;@;;;;;;;;;;;;Fixed Screen;GAME GENRE;
+Kids;Kids;@;;;;;;;;;;;;Kids;GAME GENRE;
+Platform;Platform;@;;;;;;;;;;;;Platform;GAME GENRE;
+Puzzle;Puzzle;@;;;;;;;;;;;;Puzzle;GAME GENRE;
+Racing;Racing;@;;;;;;;;;;;;Racing;GAME GENRE;
+RPG;RPG;@;;;;;;;;;;;;RPG;GAME GENRE;
+Shooter;Shooter;@;;;;;;;;;;;;Shooter;GAME GENRE;
+Sports;Sports;@;;;;;;;;;;;;Sports;GAME GENRE;
+Strategy;Strategy;@;;;;;;;;;;;;Strategy;GAME GENRE;
+Mario Bros Collection;Mario Bros Collection;@;;;;;;;;;;;;Mario Bros Collection;GAME SERIES;

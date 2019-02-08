@@ -1,0 +1,1 @@
+MESS, Multi Emulator Super System, is a system that emulates a vast quantity of obscure hardware, developed as a side project to MAME and later merged into it
