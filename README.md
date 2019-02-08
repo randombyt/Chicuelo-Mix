@@ -52,6 +52,9 @@ and place it in /modules.
 * Game list sizes at the moment have to be manually added and can't be called via layout, this will be updated once i figure out how to do it.
  
 ## Credits:
+### Theme
+This theme was created solely by Chicuelo, I have merely ported the theme to Attrcat-Mode. All the credit goes to Chicueloa and huge thanks to him for shring his great work with the community.
+
 ### General Attract-Mode Stuff:
 Having no know how of squirrel language, I have relied extensively on knowledgeable members of Attrcat-Mode forums and picked a lot form their posts. Specially keilmillerjr, oomek, jedione, progets, hermine.potter, liquid8d, zpaolo11x, kent79 & qqplayer. I'm prolly not remebering a lot of other names but thankyou for all the help. 
 
