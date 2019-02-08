@@ -48,7 +48,6 @@ The empty containers you can use for other info. These are magic tokens and can 
 
 Other notes: Names and Titles both relate to other artworks. [Title] is used for charachters/logos/controllers & [Name] is used for [Overviews] in AM\scraper\@\overview. Any changes should be reflected accordingly
 
-
 Adding new Systems: System will either be Arcade, Computer, Console or Handheld. Add an entry in relevant Displaymenu list. Items should be listed alphabetically for better organization
 Adding new Collection/ genre: Make an entry in Collections - Collections is also sorted alphabetically but I follow two tier structure. Genres are listed first then game collections (series). In genres ALL comes first rest of the enteries are all in alphabetical order.
 
