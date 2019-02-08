@@ -10,7 +10,7 @@ All the credit for this theme (Chicuelo-Mix) goes to Chicuelo. Design decisions,
 * **Original Theme Thread:** https://retropie.org.uk/forum/topic/15830/chicuelo-theme
 * **Original Theme (GitHub):** https://github.com/chicueloarcade/es-theme-Chicuelo   
 
-Lastly I've found attrcat-Mode forums to be very helpful, this here is my little bit of contribution for the community :)
+Lastly I've found Attract-Mode forums to be very helpful, this here is my little bit of contribution for the community :)
 
 ## Features:
 * Exceptionally fine tuned, elegant and polished theme
@@ -58,7 +58,7 @@ matches with the system name in theme (example genesis is named Sega Genesis in 
 
 ## Credits:
 ### Theme
-This theme was created solely by Chicuelo, I have merely ported the theme to Attrcat-Mode. All the credit goes to Chicueloa and huge thanks to him for shring his great work with the community.
+This theme was created solely by Chicuelo, I have merely ported the theme to Attrcat-Mode. All the credit goes to Chicuelo and huge thanks to him for sharing his great work with the community.
 
 ### General Attract-Mode Stuff:
 Having no know how of squirrel language, I have relied extensively on knowledgeable members of Attrcat-Mode forums and picked a lot form their posts. Specially keilmillerjr, oomek, jedione, progets, hermine.potter, liquid8d, zpaolo11x, kent79 & qqplayer. I'm prolly not remebering a lot of other names but thankyou for all the help. 
