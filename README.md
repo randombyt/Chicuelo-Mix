@@ -10,18 +10,20 @@ All the credit for this theme (Chicuelo-Mix) goes to Chicuelo. Design decisions,
 * **Original Theme Thread:** https://retropie.org.uk/forum/topic/15830/chicuelo-theme
 * **Original Theme (GitHub):** https://github.com/chicueloarcade/es-theme-Chicuelo   
 
+Lastly I've found attrcat-Mode forums to be very helpful, this here is my little bit of contribution for the community :)
+
 ## Features:
-Exceptionally fine tuned, elegant and polished theme
-Currently supports 1920x1080 (16:9) resolution, but easy to tweak to other resolutions since we deal with few artwork items. Also the dimesnions are listed in plain numbers so upsizing/ downsizing won't be a huge problem.
-Lightweight, should work with most systems
-Highly Cutomizeable, Just by changing the System pictures you can create a very different look. 
-Easy to Expand: Easy to add more systems, all you will need are a few artwork items (provided emulation for said system works).
+* Exceptionally fine tuned, elegant and polished theme
+* Currently supports 1920x1080 (16:9) resolution, but easy to tweak to other resolutions since we deal with few artwork items. Also the dimesnions are listed in plain numbers so upsizing/ downsizing won't be a huge problem.
+* Lightweight, should work with most systems
+* Highly Cutomizeable, Just by changing the System pictures you can create a very different look. 
+* Easy to Expand: Easy to add more systems, all you will need are a few artwork items (provided emulation for said system works).
 
 ## Installation:
 Attrcat-Mode is completely Portable. That means different Attrcat-Mode installations in different folders operate in isolation and don't effect each other. For this theme/ layout I HIGHLY recommend that you download and use a seperate version because WARNING!!! If you copy the contents of this theme over an old instance of Attract-Mode, some of your settings (including romlists) will be overwritten. This repo is made with new users in mind and tailored to keep things as simple as possible, so I have made some pre-configured files which WILL OVERWRITE old installation files. If you are familiar with Attrcat-Mode's working then only download /layout/Chicuela Mix v1.0 and place it in /layouts.
 
-1- Download Attract-mode and Unzip. File is located here>
-(1a) - Keil's Shuffle module is added in download.zip, if you are only downloading the layout part make sure to get it from https://github.com/keilmillerjr/shuffle-module and place it in /modules.
+1- Download Attract-mode and Unzip. File is located here http://attractmode.org/download.html
+1a- Keil's Shuffle module is added in download.zip, if you are only downloading the layout part make sure to get it from https://github.com/keilmillerjr/shuffle-module and place it in /modules.
 2- Download zip and extract. Paste on top of Attract-Mode folder and allow to overwrite.
 3- Read the readme files in folders then delete or move them. Rename Sample_attract.cfg to attract.cfg
 4- Start Attract-Mode, Press Tab for Settings. Change controls and restart.
@@ -42,12 +44,9 @@ right/ left: Right & Left are disabled on "DisplaysMenu" and only work in "Syste
 5. Cosmetic Changes like animation effect on arrows & sounds while browsing
 
 ## Future Prospects:
-This theme will continue to mimic the original. Additions (if any) will not deviate from original. 
-game list sizes at the moment have to be manually added and can't be called via layout, this will be updated once i figure out how to do it.
+* This theme will continue to mimic the original. Additions (if any) will not deviate from original. 
+* Game list sizes at the moment have to be manually added and can't be called via layout, this will be updated once i figure out how to do it.
  
-Lastly I've found attrcat-Mode forums to be very helpful, this here is my little bit of contribution for the community :)
-
-
 ## Credits:
 
 ### General Attract-Mode Stuff:
