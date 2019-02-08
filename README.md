@@ -5,10 +5,10 @@ Chicuelo made a very elegant and polished theme for EmulationStation, aptly call
 
 All the credit for this theme (Chicuelo-Mix) goes to Chicuelo. Design decisions, artwork placement, font selection etc were all made by him. To show my appreciation and respect to the original author I have tried my best to keep this theme as close to original as possible. Since EmulationStation and Attract-Mode are two different applications I had to to tweak somethings, a list of changes is listed under differences header.  
 
-**__Again to drive the point home, this here, is merely a port of an excellent theme. The credit for this great theme rests solely with Chicuelo.__**
+**_Again to drive the point home, this here, is merely a port of an excellent theme. The credit for this great theme rests solely with Chicuelo._**
 
-**Original Theme Thread:** https://retropie.org.uk/forum/topic/15830/chicuelo-theme
-**Original Theme (GitHub):** https://github.com/chicueloarcade/es-theme-Chicuelo   
+* **Original Theme Thread:** https://retropie.org.uk/forum/topic/15830/chicuelo-theme
+* **Original Theme (GitHub):** https://github.com/chicueloarcade/es-theme-Chicuelo   
 
 ## Features:
 Exceptionally fine tuned, elegant and polished theme
