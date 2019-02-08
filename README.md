@@ -20,25 +20,29 @@ Lastly I've found attrcat-Mode forums to be very helpful, this here is my little
 * Easy to Expand: Easy to add more systems, all you will need are a few artwork items (provided emulation for said system works).
 
 ## Installation:
-Attrcat-Mode is completely Portable. That means different Attrcat-Mode installations in different folders operate in isolation and don't effect each other. For this theme/ layout I HIGHLY recommend that you download and use a seperate version because WARNING!!! If you copy the contents of this theme over an old instance of Attract-Mode, some of your settings (including romlists) will be overwritten. This repo is made with new users in mind and tailored to keep things as simple as possible, so I have made some pre-configured files which WILL OVERWRITE old installation files. If you are familiar with Attrcat-Mode's working then only download /layout/Chicuela Mix v1.0 and place it in /layouts.
+Attrcat-Mode is completely Portable. That means different Attrcat-Mode installations in different folders operate in isolation and don't effect each other. For this theme/ layout I HIGHLY recommend that you download and use a seperate version because **_WARNING!!!**_ If you copy the contents of this theme over an old instance of Attract-Mode, some of your settings (including romlists) will be overwritten. This repo is made with new users in mind and tailored to keep things as simple as possible, so I have made some pre-configured files which WILL OVERWRITE old installation files. If you are familiar with Attrcat-Mode's working then only download /layout/Chicuela Mix v1.0 and place it in /layouts.
 
 1. Download Attract-mode and Unzip. File is located here  
 http://attractmode.org/download.html
-2. Keil's Shuffle module is added in download.zip, if you are only downloading the layout part make sure to get it from  
-https://github.com/keilmillerjr/shuffle-module  
-and place it in /modules.
-3. Download zip and extract. Paste on top of Attract-Mode folder and allow to overwrite.
-4. Read the readme files in folders then delete or move them. Rename Sample_attract.cfg to attract.cfg
+2. Keil's Shuffle module is already added in download.zip, if you are only downloading the layout part make sure to get it from  
+https://github.com/keilmillerjr/shuffle-module and place it in /modules else skip this step.
+3. Click on "Clone or Download" in main repo page and Download "Chicuelo-Mix-master.zip". Extract it and paste the contens (6 folders and two text files) on top of Attract-Mode folder, allow all overwrites.
+4. Rename Sample_attract.cfg to attract.cfg
 5. Start Attract-Mode, Press Tab for Settings. Change controls and restart.
-6. Everything should be operational now
+6. Everything should be operational now as far as DisplaysMenu go.
 
 ## Controls:
 1. Up/ Down: This is a layout with vertical flow, so selection in "DisplaysMenu" and "SystemMenu" is via up and down mapped on keyborad or gamepad.
 
 2. right/ left: Right & Left are disabled on "DisplaysMenu" and only work in "SystemMenu" where they jump to next display in same platform head. Right/ left can be mapped ot gamepad/ keyboard.
 
-## Adding or Removing Systems:
-**To be added**
+## Adding or Removing Systems/ Romlsist:
+1. If you want to add systems, then add an [emulator].cfg file in /emulators (examples are given) just make sure that name of [emulator].cfg
+matches with the system name in theme (example genesis is named Sega Genesis in theme and thatshow you should name it). Then generate a romlist from within Attrcat-Mode. 
+2. If you already have pre-made romlists/ [emulator].cfg, rename them according to theme and make sure you edit [Emulator] part of romlist to reflect the changes. 
+3. Adding a new system will require adding a line about it in relevant DisplaysMenu romlist. Console will be added to Consoles.txt, Arcades to Arcades.txt and so on. All systems in original are already added in pre-made lists. I f you want to add more then make sure to follow the already filled systems in DisplasMenu configs. Common mistake is not adding "@" in Emulator field.
+4. If you want to remove a system add a "#" before it in its related DisplayMenu.txt romlist. Example for removing Amiga which is a computer system open Computers.txt in /romlists and place a hash (#) before its listing, AM will not list it anymore.
+
  
 ## Differences b/w Port and Original:
 1. Added DisplaysMenu/ PlatformsMenu because calling some text assets otherwise would have required making direct enteries in layout.nut
@@ -88,9 +92,9 @@ https://craigerskine.com/
 https://dribbble.com/craigerskine  
 * Game Gear, Genesis, GameBoy Advance, Master System, Famicom, SNES, NES by "David McLeod"  
 https://dribbble.com/Mucx/tags/openemu  
-* Controller artwork by"Ricky Romero"  
+* Controller artworks by"Ricky Romero"  
 https://dribbble.com/RickyRomero/projects/113063-OpenEmu  
-* Controller artwork by "Memory Noise"  
+* Controller artworks by "Memory Noise"  
 https://dribbble.com/memorynoise/tags/openemu  
 
 ###### Logos
