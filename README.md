@@ -24,7 +24,7 @@ Attrcat-Mode is completely Portable. That means different Attrcat-Mode installat
 
 1. Download Attract-mode and Unzip. File is located here  
 http://attractmode.org/download.html
-2. Keil's Shuffle module is already added in download.zip, if you are only downloading the layout part make sure to get it from  
+2. Keil's Shuffle module is already added in download.zip, if you are only downloading the layout part make sure to get it
 https://github.com/keilmillerjr/shuffle-module and place it in /modules else skip this step.
 3. Click on "Clone or Download" in main repo page and Download "Chicuelo-Mix-master.zip". Extract it and paste the contens (6 folders and two text files) on top of Attract-Mode folder, allow all overwrites.
 4. Rename Sample_attract.cfg to attract.cfg
