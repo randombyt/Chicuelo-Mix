@@ -54,7 +54,8 @@ matches with the system name in theme (example genesis is named Sega Genesis in 
 ## Future Prospects:
 * This theme will continue to mimic the original. Additions (if any) will not deviate from original. 
 * Game list sizes at the moment have to be manually added and can't be called via layout, this will be updated once i figure out how to do it.
- 
+* Sounds are a bit of mismatch, I might update them to get a more Arcade like feel.
+
 ## Credits:
 ### Theme
 This theme was created solely by Chicuelo, I have merely ported the theme to Attrcat-Mode. All the credit goes to Chicueloa and huge thanks to him for shring his great work with the community.
