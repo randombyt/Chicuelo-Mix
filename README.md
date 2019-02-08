@@ -22,12 +22,12 @@ Lastly I've found attrcat-Mode forums to be very helpful, this here is my little
 ## Installation:
 Attrcat-Mode is completely Portable. That means different Attrcat-Mode installations in different folders operate in isolation and don't effect each other. For this theme/ layout I HIGHLY recommend that you download and use a seperate version because WARNING!!! If you copy the contents of this theme over an old instance of Attract-Mode, some of your settings (including romlists) will be overwritten. This repo is made with new users in mind and tailored to keep things as simple as possible, so I have made some pre-configured files which WILL OVERWRITE old installation files. If you are familiar with Attrcat-Mode's working then only download /layout/Chicuela Mix v1.0 and place it in /layouts.
 
-1- Download Attract-mode and Unzip. File is located here http://attractmode.org/download.html
-2- Keil's Shuffle module is added in download.zip, if you are only downloading the layout part make sure to get it from https://github.com/keilmillerjr/shuffle-module and place it in /modules.
-3- Download zip and extract. Paste on top of Attract-Mode folder and allow to overwrite.
-4- Read the readme files in folders then delete or move them. Rename Sample_attract.cfg to attract.cfg
-5- Start Attract-Mode, Press Tab for Settings. Change controls and restart.
-6- Everything should be operational now
+1. Download Attract-mode and Unzip. File is located here http://attractmode.org/download.html
+2. Keil's Shuffle module is added in download.zip, if you are only downloading the layout part make sure to get it from https://github.com/keilmillerjr/shuffle-module and place it in /modules.
+3. Download zip and extract. Paste on top of Attract-Mode folder and allow to overwrite.
+4. Read the readme files in folders then delete or move them. Rename Sample_attract.cfg to attract.cfg
+5. Start Attract-Mode, Press Tab for Settings. Change controls and restart.
+6. Everything should be operational now
 
 ## Controls:
 Up/ Down: This is a layout with vertical flow, so selection in "DisplaysMenu" and "SystemMenu" is via up and down mapped on keyborad or gamepad.
