@@ -46,7 +46,7 @@ fe.add_transition_callback(this, "on_transition")
 
 
 //System Logo
-local syslogo = fe.add_image("images/logos/[DisplayType].png" 908,807,300,160);
+local syslogo = fe.add_image("images/logos/[DisplayName].png" 908,807,300,160);
 syslogo.mipmap = true;
 syslogo.preserve_aspect_ratio = true;
 syslogo.set_rgb (79, 81, 89);
