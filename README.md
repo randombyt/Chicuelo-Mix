@@ -61,7 +61,7 @@ matches with the system name in theme (example genesis is named Sega Genesis in 
 This theme was created solely by Chicuelo, I have merely ported the theme to Attrcat-Mode. All the credit goes to Chicuelo and huge thanks to him for sharing his great work with the community.
 
 ### General Attract-Mode Stuff:
-Having no know how of squirrel language, I have relied extensively on knowledgeable members of Attrcat-Mode forums and picked a lot form their posts. Specially keilmillerjr, oomek, jedione, progets, hermine.potter, liquid8d, zpaolo11x, kent79 & qqplayer. I'm prolly not remebering a lot of other names but thankyou for all the help. 
+Having no know how of squirrel language, I have relied extensively on knowledgeable members of Attrcat-Mode forums and picked a lot form their posts. Specially keilmillerjr, oomek, jedione, progets, hermine.potter, liquid8d, zpaolo11x, kent79, calle81 & qqplayer. I'm prolly not remebering a lot of other names but thankyou for all the help. 
 
 ### Plugins/ Modules
 * Shuffle Plugin from "Keil Miller Jr" from  
