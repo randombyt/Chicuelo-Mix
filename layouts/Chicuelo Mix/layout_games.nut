@@ -16,6 +16,8 @@ background.mipmap = true;
 
 //##### ARTWORKS #####
 
+// Snap and Video as an artwork must be declared in /emulators/[Emulator].cfg, two sample emulator.cfg are included as examples. If you want to use game title then rename all instances of "snap" to "title" in //Snap+Frame code  and declare title as artwrork in emulator.cfg. If you only want videos then rename all instances of "snap" to "video" and remove code starting from //Video starts playing till //System Logo//
+
 //Snap+Frame
 local snap = fe.add_artwork( "snap", 948, 137, 763, 572 );
 snap.mipmap = true;
@@ -185,8 +187,10 @@ gameoview.line_spacing = 1.25;
 gameoview.style = Style.Bold;
 gameoview.set_rgb(119, 121, 129);
 
+// Favorites function is a WIP, Work in Progress, at this stage "custom3" will enter the selected title details in /romlists/Favorites.txt but thats about it. Removing would require manually deleting the said title line from the text file. If you want to use it in current state, uncomment (i.e. remove /* and */ from the function and map "custom3" from AM > Settings > Controls to some key//
+
 //Favorites Function
-fe.add_signal_handler(this, "on_signal");
+/*fe.add_signal_handler(this, "on_signal");
 function on_signal( sigfav )
 {
 	if ( sigfav == "custom3" ) 
@@ -195,4 +199,6 @@ function on_signal( sigfav )
     }
     return false;
 }
+*/
+
 //*****END*****//
