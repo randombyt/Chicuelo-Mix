@@ -26,7 +26,7 @@ Attrcat-Mode is completely Portable. That means different Attrcat-Mode installat
 http://attractmode.org/download.html
 2. Keil's Shuffle module is already added in download.zip, if you are only downloading the layout part make sure to get it
 https://github.com/keilmillerjr/shuffle-module and place it in /modules else skip this step.
-3. Fetch the latest release candidate from release page. Extract it and paste the contens (6 folders and two text files) on top of Attract-Mode folder, allow all overwrites (If only seeking the layout, download the release candidate, extract and place only "Chicuelo Mix" in /AM/layouts). 
+3. Fetch the latest release candidate from release page. Extract it and paste the contens (6 folders and two text files) on top of Attract-Mode folder, allow all overwrites. If you are only seeking the layout, download the release candidate, extract it and place "Chicuelo Mix" folder in /AM/layouts, this folder includes all artwork assets/ fonts etc utilized in theme. 
 4. Start Attract-Mode, Press Tab for Settings. Change controls and restart.
 5. Everything should be operational now as far as DisplaysMenu go.
 6. Theme has two layout.nut files, For gamelists go to AM > Settings > Displays > [System] > Layout Options and Select layout_games
