@@ -100,7 +100,7 @@ Controller images taken from Chicuelo's original ES theme, design proportions wi
   - Sega SG-1000
   - Sony PSP
   - Vectrex
-  - Virtual Boy
+  - Virtual Boy  
 Listed on: https://dribbble.com/RickyRomero/projects/113063-OpenEmu  
 
 * Contrioller artworks by "Craig Erskine". 
@@ -108,9 +108,9 @@ Listed on: https://dribbble.com/RickyRomero/projects/113063-OpenEmu
   - NEC PC-Engine
   - Nintendo GameCube
   - Sega Dreamcast
-  - SNK NeoGeo Pocket Color (Original Version)  
-Listed on: https://craigerskine.com/  
-Listed on: https://dribbble.com/craigerskine  
+  - SNK NeoGeo Pocket Color (Original Version)    
+Listed on: https://craigerskine.com/    
+Listed on: https://dribbble.com/craigerskine    
 
 * Controller artworks by "David McLeod"
   - Sega Game Gear
@@ -119,7 +119,7 @@ Listed on: https://dribbble.com/craigerskine
   - Sega Master System
   - Nintendo Famicom
   - Super Nintendo Entertainment System (SNES)
-  - Nintendo entertainment System (NES)
+  - Nintendo entertainment System (NES)  
 Listed on: https://dribbble.com/Mucx/tags/openemu  
 
 * Controller artworks by "Memory Noise"  
