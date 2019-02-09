@@ -42,7 +42,6 @@ matches with the system name in theme (example genesis is named Sega Genesis in 
 2. If you already have pre-made romlists/ [emulator].cfg, rename them according to theme and make sure you edit [Emulator] part of romlist to reflect the changes. 
 3. Adding a new system will require adding a line about it in relevant DisplaysMenu romlist. Console will be added to Consoles.txt, Arcades to Arcades.txt and so on. All systems in original are already added in pre-made lists. I f you want to add more then make sure to follow the already filled systems in DisplasMenu configs. Common mistake is not adding "@" in Emulator field.
 4. If you want to remove a system add a "#" before it in its related DisplayMenu.txt romlist. Example for removing Amiga which is a computer system open Computers.txt in /romlists and place a hash (#) before its listing, AM will not list it anymore.
-
  
 ## Differences b/w Port and Original:
 1. Added DisplaysMenu/ PlatformsMenu because calling some text assets otherwise would have required making direct enteries in layout.nut
@@ -88,15 +87,43 @@ thread: https://retropie.org.uk/forum/topic/15830/chicuelo-theme
 ###### Controllers
 Controller images taken from Chicuelo's original ES theme, design proportions within layout/ placement etc is from Chicuelo. Most Controller images originated from OpenEMU (opensource bitmaps) I'll list the orignal authors (taken from Chicuelo's Repo Readme):
 
-* TG-16/CD, PCE, GameCube, Dreamcast and the original version of the NGPC by "Craig Erskine".  
-https://craigerskine.com/  
-https://dribbble.com/craigerskine  
-* Game Gear, Genesis, GameBoy Advance, Master System, Famicom, SNES, NES by "David McLeod"  
-https://dribbble.com/Mucx/tags/openemu  
-* Controller artworks by"Ricky Romero"  
-https://dribbble.com/RickyRomero/projects/113063-OpenEmu  
+
+* Controller artworks by "Ricky Romero"  
+  - Atari 2600
+  - Atari 5200
+  - Intellivision
+  - NeoGeo Pocket Color
+  - Nintendo 64
+  - Nintendo DS
+  - Odyssey2
+  - Sega Saturn
+  - Sega SG-1000
+  - Sony PSP
+  - Vectrex
+  - Virtual Boy
+Listed on: https://dribbble.com/RickyRomero/projects/113063-OpenEmu  
+
+* Contrioller artworks by "Craig Erskine". 
+  - NEC TurboGrafix-16/CD
+  - NEC PC-Engine
+  - Nintendo GameCube
+  - Sega Dreamcast
+  - SNK NeoGeo Pocket Color (Original Version)  
+Listed on: https://craigerskine.com/  
+Listed on: https://dribbble.com/craigerskine  
+
+* Controller artworks by "David McLeod"
+  - Sega Game Gear
+  - Sega Genesis
+  - Nintendo GameBoy Advance
+  - Sega Master System
+  - Nintendo Famicom
+  - Super Nintendo Entertainment System (SNES)
+  - Nintendo entertainment System (NES)
+Listed on: https://dribbble.com/Mucx/tags/openemu  
+
 * Controller artworks by "Memory Noise"  
-https://dribbble.com/memorynoise/tags/openemu  
+Listed on: https://dribbble.com/memorynoise/tags/openemu  
 
 ###### Logos
 * Mario Bros Collection  
