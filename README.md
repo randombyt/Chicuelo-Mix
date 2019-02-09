@@ -123,6 +123,9 @@ Listed on: https://dribbble.com/craigerskine
 Listed on: https://dribbble.com/Mucx/tags/openemu  
 
 * Controller artworks by "Memory Noise"  
+  - NEC PC-FX
+  - Bandai Wonderswan (Swancrystal)
+  - Atari Lynx II  
 Listed on: https://dribbble.com/memorynoise/tags/openemu  
 
 ###### Logos
