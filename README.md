@@ -27,9 +27,9 @@ http://attractmode.org/download.html
 2. Keil's Shuffle module is already added in download.zip, if you are only downloading the layout part make sure to get it
 https://github.com/keilmillerjr/shuffle-module and place it in /modules else skip this step.
 3. Click on "Clone or Download" in main repo page and Download "Chicuelo-Mix-master.zip". Extract it and paste the contens (6 folders and two text files) on top of Attract-Mode folder, allow all overwrites.
-4. Rename Sample_attract.cfg to attract.cfg
-5. Start Attract-Mode, Press Tab for Settings. Change controls and restart.
-6. Everything should be operational now as far as DisplaysMenu go.
+4. Start Attract-Mode, Press Tab for Settings. Change controls and restart.
+5. Everything should be operational now as far as DisplaysMenu go.
+6. Theme has two layout.nut files, For gamelists go to AM > Settings > Displays > [System] > Layout Options and Select layout_games
 
 ## Controls:
 1. Up/ Down: This is a layout with vertical flow, so selection in "DisplaysMenu" and "SystemMenu" is via up and down mapped on keyborad or gamepad.
