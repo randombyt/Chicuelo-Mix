@@ -69,7 +69,7 @@ note: I have added shuffle plugin in the repo and download file because new user
 
 ### Font
 * Roboto: https://fonts.google.com/specimen/Roboto  
-* Roboto-Light-Uppercase: Is a modified version of Roboto, edited by [FontForge] (https://fontforge.github.io/en-US/) to only show Uppercase charachters
+* Roboto-Light-Uppercase: Is a modified version of Roboto, edited by [FontForge](https://fontforge.github.io/en-US/) to only show Uppercase charachters
 
 ### ArtWorks
 All the artwork is from Chicuelo's Chicuelo theme unless noted otherwise.
