@@ -68,8 +68,8 @@ https://github.com/keilmillerjr/shuffle-module
 note: I have added shuffle plugin in the repo and download file because new users tend to make mistakes in placing modules/ plugins. The most updated version will always be at Keil's orignal page and I encourge all to use original shuffle repo for keeping the plugin updated and also keep an eye on Keil's other plugin's which can add a lot of quality of life additions to Attract-Mode.
 
 ### Font
-Roboto: https://fonts.google.com/specimen/Roboto
-Roboto-Light-Uppercase: Is a modified version of Roboto, edited by (https://fontforge.github.io/en-US/ "FontForge") to only show Uppercase charachters
+* Roboto: https://fonts.google.com/specimen/Roboto  
+* Roboto-Light-Uppercase: Is a modified version of Roboto, edited by (https://fontforge.github.io/en-US/ "FontForge") to only show Uppercase charachters
 
 ### ArtWorks
 All the artwork is from Chicuelo's Chicuelo theme unless noted otherwise.
