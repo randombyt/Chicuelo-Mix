@@ -67,6 +67,10 @@ Having no know how of squirrel language, I have relied extensively on knowledgea
 https://github.com/keilmillerjr/shuffle-module   
 note: I have added shuffle plugin in the repo and download file because new users tend to make mistakes in placing modules/ plugins. The most updated version will always be at Keil's orignal page and I encourge all to use original shuffle repo for keeping the plugin updated and also keep an eye on Keil's other plugin's which can add a lot of quality of life additions to Attract-Mode.
 
+### Font
+* Roboto: https://fonts.google.com/specimen/Roboto  
+* Roboto-Light-Uppercase: Is a modified version of Roboto, edited by [FontForge](https://fontforge.github.io/en-US/) to only show Uppercase charachters
+
 ### ArtWorks
 All the artwork is from Chicuelo's Chicuelo theme unless noted otherwise.
 
@@ -127,6 +131,8 @@ Listed on: https://dribbble.com/Mucx/tags/openemu
   - Bandai Wonderswan (Swancrystal)
   - Atari Lynx II  
 Listed on: https://dribbble.com/memorynoise/tags/openemu  
+
+(*Note: I have not been able to get in touch with "David McLead" and "Memory Noise", the bitmaps are a part of OpenEMU an openasource project so I am hoping that sharing them won't be a problem. In-case original creators object I'll remove the bitmaps*)
 
 ###### Logos
 * Mario Bros Collection  
