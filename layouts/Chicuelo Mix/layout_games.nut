@@ -80,7 +80,7 @@ function tick_down ( ttime )
 			{
 				image_down.visible = true;
 			}
-   else if (fe.get_input_state("Up")== false)
+   else if (fe.get_input_state("Down")== false)
 			{
 				image_down.visible = false;
 			}
