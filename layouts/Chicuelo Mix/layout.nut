@@ -21,10 +21,17 @@ background.mipmap = true;
 //Platforms Flyer, Logo & Title
 local sysflyer = fe.add_image("images/characters/[Title].png", 788, 81, 1027, 918);
 sysflyer.mipmap = true;
+sysflyer.trigger = Transition.EndNavigation;
+sysflyer.preserve_aspect_ratio = true;
+
 local syscontrollers = fe.add_image("images/controllers/[Title].png", 1351, 621, 0, 0);
 syscontrollers.mipmap = true;
+syscontrollers.trigger = Transition.EndNavigation;
+syscontrollers.preserve_aspect_ratio = true;
+
 local syslogo = fe.add_image("images/logos/[Title].png" 244,368,400,160);
 syslogo.mipmap = true;
+syslogo.trigger = Transition.EndNavigation;
 syslogo.preserve_aspect_ratio = true;
 syslogo.set_rgb (79, 81, 89);
 
@@ -35,35 +42,23 @@ image_up.visible = false;
 image_down.visible = false;
 fe.add_ticks_callback( "tick_up" );
 fe.add_ticks_callback( "tick_down" );
-function tick_up( ttime )
-{
-	if (fe.get_input_state("Up")==true)
-			{
-				image_up.visible = true;
-			}
-   else if (fe.get_input_state("Up")== false)
-			{
-				image_up.visible = false;
-			}
-			return true;
-   return false;
+function tick_up(ttime){
+    (fe.get_input_state("Up") || fe.get_input_state("Joy0 Up")) ? image_up.visible = true : image_up.visible = false;
 }
 
-function tick_down ( ttime )
-{
-	if (fe.get_input_state("Down")==true)
-			{
-				image_down.visible = true;
-			}
-   else if (fe.get_input_state("Down")== false)
-			{
-				image_down.visible = false;
-			}
-			return true;
-   return false;
+function tick_down(ttime){
+    (fe.get_input_state("Down") || fe.get_input_state("Joy0 Down")) ? image_down.visible = true : image_down.visible = false;
 }
 
+//Indicator Bar
+local indicator1 = fe.add_image( "images/indicator1.png", 46, 260, 12,600 );
+local indicator0 = fe.add_image( "images/indicator0.png", 48, 260, 8, 600 );
 
+function indicate( ttype, var, ttime ) 
+{
+   indicator0.height = (indicator1.height)/(fe.list.size) * (fe.list.index+1)
+}
+fe.add_transition_callback(this, "indicate" )
 
 
 //#####GameList#####
@@ -104,7 +99,7 @@ sysinfo.charsize = 30;
 sysinfo.set_rgb(129, 129, 129);
 
 //System Overview
-local sysoverview = fe.add_text("[Overview]", 242, 480, 400, 300);
+local sysoverview = fe.add_text("[Overview]" + "[Year]", 242, 480, 400, 300);
 sysoverview.font= "Roboto-Medium.ttf";
 sysoverview.align = Align.Centre;
 sysoverview.word_wrap = true;
@@ -117,7 +112,7 @@ sysoverview.set_rgb(129, 129, 129);
 function exitoview()
 {
 	if (fe.game_info( Info.Title ) != "Exit Attract-Mode") return "";
-	else if (fe.game_info( Info.Title ) == "Exit Attract-Mode") return "Safe option to Exit the System";
+	else if (fe.game_info( Info.Title ) == "Exit Attract-Mode") return "Safe Option to Exit the System";
 }
 local exitoview = fe.add_text("[!exitoview]", 242, 480, 400, 300);
 exitoview.font= "Roboto-Medium.ttf";
@@ -160,6 +155,5 @@ function on_signal( sig )
 	}
 	return false;
 }
-
 fe.add_signal_handler(this, "on_signal");
 //*****END*****//

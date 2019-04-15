@@ -13,14 +13,13 @@ local background = background_sur.add_image("images/ingame-global-bg.png", 0,0,0
 background.mipmap = true;
 
 
-
 //##### ARTWORKS #####
-
-// Snap and Video as an artwork must be declared in /emulators/[Emulator].cfg, two sample emulator.cfg are included as examples. If you want to use game title then rename all instances of "snap" to "title" in //Snap+Frame code  and declare title as artwrork in emulator.cfg. If you only want videos then rename all instances of "snap" to "video" and remove code starting from //Video starts playing till //System Logo//
 
 //Snap+Frame
 local snap = fe.add_artwork( "snap", 948, 137, 763, 572 );
 snap.mipmap = true;
+snap.trigger = Transition.EndNavigation;
+snap.preserve_aspect_ratio = true;
 
 //Video Starts Playing After 1 Second In Place of Snap
 local settings = {
@@ -29,26 +28,31 @@ local settings = {
 }
 
 local video = fe.add_artwork("video", 948, 137, 763, 572)
-
+video.preserve_aspect_ratio = true;
+video.mipmap = true;
+video.trigger = Transition.EndNavigation;
 
 function on_transition(ttype, var, transition_time) {
-    if ( ttype == Transition.StartLayout || ttype == Transition.ToNewList || ttype == Transition.FromOldSelection ) {
+    if ( ttype == Transition.StartLayout || ttype == Transition.ToNewList || ttype == Transition.FromOldSelection )
+	{
         video.visible = false
-        settings.delay_timer = fe.layout.time
+		  video.preserve_aspect_ratio = true
+		  video.smooth = true
+		  settings.delay_timer = fe.layout.time
     }
     return false
 }
 
-function on_tick(tick_time) {
+function tick_vid(tick_time) {
    if ( video.video_playing && tick_time - settings.delay_timer >= settings.play_delay ) video.visible = true
 }
 
-fe.add_ticks_callback(this, "on_tick")
+fe.add_ticks_callback(this, "tick_vid")
 fe.add_transition_callback(this, "on_transition")
 
 
 //System Logo
-local syslogo = fe.add_image("images/logos/[DisplayName].png" 908,807,300,160);
+local syslogo = fe.add_image("images/logos/[DisplayType].png" 908,807,300,160);
 syslogo.mipmap = true;
 syslogo.preserve_aspect_ratio = true;
 syslogo.set_rgb (79, 81, 89);
@@ -60,33 +64,23 @@ image_up.visible = false;
 image_down.visible = false;
 fe.add_ticks_callback( "tick_up" );
 fe.add_ticks_callback( "tick_down" );
-function tick_up( ttime )
-{
-	if (fe.get_input_state("Up")==true)
-			{
-				image_up.visible = true;
-			}
-   else if (fe.get_input_state("Up")== false)
-			{
-				image_up.visible = false;
-			}
-			return true;
-   return false;
+function tick_up(ttime){
+    (fe.get_input_state("Up") || fe.get_input_state("Joy0 Up")) ? image_up.visible = true : image_up.visible = false;
 }
 
-function tick_down ( ttime )
-{
-	if (fe.get_input_state("Down")==true)
-			{
-				image_down.visible = true;
-			}
-   else if (fe.get_input_state("Down")== false)
-			{
-				image_down.visible = false;
-			}
-			return true;
-   return false;
+function tick_down(ttime){
+    (fe.get_input_state("Down") || fe.get_input_state("Joy0 Down")) ? image_down.visible = true : image_down.visible = false;
 }
+
+//Indicator Bar
+local indicator1 = fe.add_image( "images/indicator1.png", 46, 260, 12,600 );
+local indicator0 = fe.add_image( "images/indicator0.png", 48, 260, 8, 600 );
+
+function indicate( ttype, var, ttime ) 
+{
+   indicator0.height = (indicator1.height)/(fe.list.size) * (fe.list.index+1)
+}
+fe.add_transition_callback(this, "indicate" )
 
 //#####GameList#####
 
@@ -176,7 +170,7 @@ function update() {
 local list = ShuffleList(list, "text");
 local pow = ShufflePow(pow, "image");
 
-//Overview & Missing Overview Function
+//Overview
 local gameoview = fe.add_text("[Overview]", 1261, 806, 430, 170);
 gameoview.font= "Roboto-Light.ttf";
 gameoview.align = Align.TopLeft;
@@ -187,10 +181,19 @@ gameoview.line_spacing = 1.25;
 gameoview.style = Style.Bold;
 gameoview.set_rgb(119, 121, 129);
 
-// Favorites function is a WIP, Work in Progress, at this stage "custom3" will enter the selected title details in /romlists/Favorites.txt but thats about it. Removing would require manually deleting the said title line from the text file. If you want to use it in current state, uncomment (i.e. remove /* and */ from the function and map "custom3" from AM > Settings > Controls to some key//
+fe.add_transition_callback("on_gameoviewtransition")
+function on_gameoviewtransition(ttype, var, ttime)
+ {
+    if ( ttype == Transition.EndNavigation)
+        gameoview.msg = fe.game_info(Info.Overview)
+	if ( ttype == Transition.StartLayout)
+        gameoview.msg = fe.game_info(Info.Overview)
+	if ( ttype == Transition.ToNewList)
+        gameoview.msg = fe.game_info(Info.Overview)
+}
 
-//Favorites Function
-/*fe.add_signal_handler(this, "on_signal");
+/*//Favorites Function
+fe.add_signal_handler(this, "on_signal");
 function on_signal( sigfav )
 {
 	if ( sigfav == "custom3" ) 
@@ -198,7 +201,5 @@ function on_signal( sigfav )
      fe.plugin_command_bg("cmd.exe /C" "echo " + fe.game_info( Info.Name ) + ";" + fe.game_info( Info.Title )  + ";" + fe.game_info( Info.Emulator ) + ";" + fe.game_info( Info.CloneOf )  + ";" + fe.game_info( Info.Year ) + ";" + fe.game_info( Info.Manufacturer )  + ";" + fe.game_info( Info.Category ) + ";" + fe.game_info( Info.Players )  + ";" + fe.game_info( Info.Rotation ) + ";" + fe.game_info( Info.Control )  + ";" + fe.game_info( Info.Status ) + ";" + fe.game_info( Info.DisplayCount )  + ";" + fe.game_info( Info.DisplayType ) + ";" + fe.game_info( Info.AltRomname )  + ";" + fe.game_info( Info.AltTitle ) + ";" + fe.game_info( Info.Extra ) + ";" + fe.game_info( Info.Buttons ) + " >> romlists/Favorites.txt" );
     }
     return false;
-}
-*/
-
+}*/
 //*****END*****//
