@@ -43,11 +43,11 @@ image_down.visible = false;
 fe.add_ticks_callback( "tick_up" );
 fe.add_ticks_callback( "tick_down" );
 function tick_up(ttime){
-    (fe.get_input_state("Up") || fe.get_input_state("Joy0 Up")) ? image_up.visible = true : image_up.visible = false;
+    (fe.get_input_state("Up") || fe.get_input_state("Joy0 Up") || fe.get_input_state("Joy0 PovYpos")) ? image_up.visible = true : image_up.visible = false;
 }
 
 function tick_down(ttime){
-    (fe.get_input_state("Down") || fe.get_input_state("Joy0 Down")) ? image_down.visible = true : image_down.visible = false;
+    (fe.get_input_state("Down") || fe.get_input_state("Joy0 Down") || fe.get_input_state("Joy0 PovYneg")) ? image_down.visible = true : image_down.visible = false;
 }
 
 //Indicator Bar
@@ -60,6 +60,17 @@ function indicate( ttype, var, ttime )
 }
 fe.add_transition_callback(this, "indicate" )
 
+function sort_value ()
+{
+	if (fe.game_info( Info.Sort).Name == "Title") return "100";
+	else if (fe.game_info( Info.Sort).Name == "Year") return "200";
+	else if (fe.game_info( Info.Sort).Name == "Players") return "300";
+	else if (fe.game_info( Info.Sort).Name == "NoSort") return "400";
+}
+
+local sortby = fe.add_text ("[!sort_value]", 500,500,200,200;
+sortby.font = "Roboto-Medium.ttf";
+sortby.charsize = 50;
 
 //#####GameList#####
 //List Size
