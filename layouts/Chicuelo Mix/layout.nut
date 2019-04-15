@@ -99,7 +99,7 @@ sysinfo.charsize = 30;
 sysinfo.set_rgb(129, 129, 129);
 
 //System Overview
-local sysoverview = fe.add_text("[Overview]" + "[Year]", 242, 480, 400, 300);
+local sysoverview = fe.add_text("[Overview]", 242, 480, 400, 300);
 sysoverview.font= "Roboto-Medium.ttf";
 sysoverview.align = Align.Centre;
 sysoverview.word_wrap = true;
