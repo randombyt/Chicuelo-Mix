@@ -181,17 +181,6 @@ gameoview.line_spacing = 1.25;
 gameoview.style = Style.Bold;
 gameoview.set_rgb(119, 121, 129);
 
-fe.add_transition_callback("on_gameoviewtransition")
-function on_gameoviewtransition(ttype, var, ttime)
- {
-    if ( ttype == Transition.EndNavigation)
-        gameoview.msg = fe.game_info(Info.Overview)
-	if ( ttype == Transition.StartLayout)
-        gameoview.msg = fe.game_info(Info.Overview)
-	if ( ttype == Transition.ToNewList)
-        gameoview.msg = fe.game_info(Info.Overview)
-}
-
 /*//Favorites Function
 fe.add_signal_handler(this, "on_signal");
 function on_signal( sigfav )

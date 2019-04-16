@@ -60,17 +60,6 @@ function indicate( ttype, var, ttime )
 }
 fe.add_transition_callback(this, "indicate" )
 
-function sort_value ()
-{
-	if (fe.game_info( Info.Sort).Name == "Title") return "100";
-	else if (fe.game_info( Info.Sort).Name == "Year") return "200";
-	else if (fe.game_info( Info.Sort).Name == "Players") return "300";
-	else if (fe.game_info( Info.Sort).Name == "NoSort") return "400";
-}
-
-local sortby = fe.add_text ("[!sort_value]", 500,500,200,200;
-sortby.font = "Roboto-Medium.ttf";
-sortby.charsize = 50;
 
 //#####GameList#####
 //List Size
