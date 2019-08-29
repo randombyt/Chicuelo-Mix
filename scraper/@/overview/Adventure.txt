@@ -1,1 +1,1 @@
-In an adventure game the player follows an interactive story, driven by exploration and puzzle-solving
+In an adventure game the player follows an interactive story, driven by exploration and puzzle solving

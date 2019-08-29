@@ -1,1 +1,1 @@
-FB Alpha is an arcade emulator supporting different arcade platforms. It sacrfices accuracy for performance
+FinalBurn Alpha is an arcade emulator supporting different arcade platforms. It favors performance over accuracy
