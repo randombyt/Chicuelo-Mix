@@ -1,1 +1,1 @@
-Safe option to Shut Down or Restart the System
+Safe option to Shutdown or Restart the System
